@@ -1,0 +1,85 @@
+* {
+   box-sizing: border-box;
+}
+
+html {
+   background-image: url(/img/frantisek-g-XXuVXLy5gHU-unsplash.jpg);
+   background-color: #333;
+   background-blend-mode: multiply;
+   background-size:  200%;
+   background-repeat: repeat;
+
+   font-size: 10px;
+}
+
+h1 {
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 4rem;
+   padding: 2rem;
+   background-color: white;
+   text-align: center;
+   margin-bottom: 4rem;
+}
+
+h3, h3 a {
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 2.2rem;
+   color: rgba(255, 255, 255, 0.75);
+   margin-bottom: 2rem;
+   text-align: center;
+   padding: 0.5rem;
+   
+}
+
+h4 {
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 2rem;
+   color: rgba(255, 255, 255, 0.5);
+   margin-bottom: 0.5rem;
+   margin-top: 2rem;
+   
+}
+
+a {
+   font-family: 'Merriweather Sans', sans-serif;
+   font-size: 1.5rem;
+   letter-spacing: 1px;
+   line-height: 1.75;
+   text-decoration: none;
+   color: white;
+}
+
+a:hover {
+   opacity: 0.5;
+   transition: ease-in 0.3s;
+}
+
+/* MAIN */
+main {
+   width: 95%;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(20rem, 30rem));
+   justify-content: center;
+   grid-gap: 3rem;
+}
+
+main .drug-box {
+   background-color: green;
+   
+   padding: 2rem;
+   border-radius: 1rem;
+}
+
+ul
+
+
+/* FONTS */
+/* 
+font-family: 'Ubuntu', sans-serif;
+
+font-family: 'Merriweather Sans', sans-serif;
+ */
+
+
+/* COLORS */
