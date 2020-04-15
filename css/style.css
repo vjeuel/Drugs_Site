@@ -3,7 +3,7 @@
 }
 
 html {
-   background-image: url(/img/frantisek-g-XXuVXLy5gHU-unsplash.jpg);
+   background-image: url(../img/frantisek-g-XXuVXLy5gHU-unsplash.jpg);
    background-color: #333;
    background-blend-mode: multiply;
    background-size:  200%;
@@ -16,19 +16,25 @@ h1 {
    font-family: 'Ubuntu', sans-serif;
    font-size: 3rem;
    padding: 2rem;
-   background-color: white;
+   background-color: #BDBFBF;
    text-align: center;
    margin-bottom: 4rem;
 }
 
-h3, h3 a {
+h3{
    font-family: 'Ubuntu', sans-serif;
    font-size: 2.2rem;
    text-align: center;
-   color: rgba(255, 255, 255, 0.75);
-   margin-bottom: 2rem;
-   padding: 0.5rem;
+   align-self: center;
+   color: white;
+   border-radius: 1rem;
+   padding: 1rem 0.5rem;
+   margin: 0;
+   border-bottom: 2px solid white;
+}
 
+h3:hover {
+   color: black;
 }
 
 h4 {
@@ -37,26 +43,43 @@ h4 {
    color: rgba(255, 255, 255, 0.5);
    margin-bottom: 0.5rem;
    margin-top: 2rem;
+   margin-left: 1rem;
    
+}
+
+ul, li {
+   list-style-type: none;
+}
+
+li {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: auto;
+   width: 100%;
 }
 
 a {
    font-family: 'Merriweather Sans', sans-serif;
    font-size: 1.5rem;
    letter-spacing: 1px;
-   line-height: 1.75;
    text-decoration: none;
+   justify-self: left;
    color: white;
+   padding: 0.5rem 1rem;
+   border-radius: 1rem;
+   width: 100%;
+   margin: 0 auto;
 }
 
 a:hover {
    opacity: 0.5;
    transition: ease-in 0.3s;
+   background-color: white;
+   color: black;
+   width: 100%;
+   margin: 0 auto;
 }
 
-ul, li {
-   list-style-type: none;
-}
 
 /* MAIN */
 main {
@@ -65,20 +88,28 @@ main {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(20rem, 30rem));
    justify-content: center;
-   grid-gap: 3rem;
+   grid-gap: 2rem;
 }
 
 main .drug-box {   
+   width: 100%;
+   display: grid;
+   grid-template-rows: 5rem 1fr;
+   grid-gap: 1rem;
    padding: 2rem;
    border-radius: 1rem;
 }
 
 main .blood-pressure {
-   background-color: darkred;
+   background-color: #B5081A;
+}
+
+main .cholesterol {
+   background-color: #CD5A11;
 }
 
 main .diabetes {
-   background-color: darkgreen;
+   background-color: #004107;
 }
 
 
@@ -92,3 +123,19 @@ font-family: 'Merriweather Sans', sans-serif;
 
 
 /* COLORS */
+
+/* Color Theme Swatches in Hex */
+.Fashion-1-hex { color: #BDBFBF; }
+.Dark-LGBTQ-Flag-1-hex { color: #1B1A42; }
+.Dark-LGBTQ-Flag-2-hex { color: #004107; }
+.Dark-LGBTQ-Flag-3-hex { color: #CA7A00; }
+.Dark-LGBTQ-Flag-4-hex { color: #CD5A11; }
+.Dark-LGBTQ-Flag-5-hex { color: #B5081A; }
+
+/* Color Theme Swatches in RGBA */
+.Fashion-1-rgba { color: rgba(189, 191, 191, 1); }
+.Dark-LGBTQ-Flag-1-rgba { color: rgba(27, 25, 66, 1); }
+.Dark-LGBTQ-Flag-2-rgba { color: rgba(0, 65, 6, 1); }
+.Dark-LGBTQ-Flag-3-rgba { color: rgba(202, 122, 0, 1); }
+.Dark-LGBTQ-Flag-4-rgba { color: rgba(205, 90, 17, 1); }
+.Dark-LGBTQ-Flag-5-rgba { color: rgba(181, 7, 26, 1); }
