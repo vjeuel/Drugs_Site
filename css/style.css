@@ -3,12 +3,7 @@
 }
 
 html {
-   background-image: url(../img/frantisek-g-XXuVXLy5gHU-unsplash.jpg);
-   background-color: #333;
-   background-blend-mode: multiply;
-   background-size:  200%;
-   background-repeat: repeat;
-
+   background-color: #111;
    font-size: 10px;
 }
 
@@ -64,23 +59,6 @@ a:hover {
    margin: 0.25rem auto;
 }
 
-#red {
-   background-color: red;
-   height: 20rem;
-}
-#blue {
-   background-color: blue;
-   height: 30rem;
-}
-#yellow {
-   background-color: yellow;
-   height: 25rem;
-}
-#orange {
-   background-color: orange;
-   height: 40rem;
-}
-
 /* MAIN */
 main {
    width: 95%;
@@ -89,6 +67,7 @@ main {
 
 .drug-box {
    border: red solid 2px;
+   padding: 1rem;
 }
 
 main .illness-title {

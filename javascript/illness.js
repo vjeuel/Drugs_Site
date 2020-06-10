@@ -70,7 +70,7 @@ $(document).ready(() => {
          <a href="${illnessArr[i].link}" class="illness-title"><h3>${illnessArr[i].name}</h3></a>
          </div>
          `;
-         $("#macy-container").append(illnessBoxes)
+         $("main").append(illnessBoxes)
       }
    
 
