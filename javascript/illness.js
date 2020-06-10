@@ -67,7 +67,7 @@ $(document).ready(() => {
       for (let i = 0; i < illnessArr.length; i++) {
          const illnessBoxes = `
          <div class="${illnessArr[i].illness} drug-box">
-         <a href="${illnessArr[i].link}" class="illness-title"><h3>${illnessArr[i].name}</h3></a>
+         <a href="${illnessArr[i].link}" class="illness-title" target="_blank"><h3>${illnessArr[i].name}</h3></a>
          </div>
          `;
          $("main").append(illnessBoxes)

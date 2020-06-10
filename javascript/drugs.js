@@ -448,77 +448,77 @@ $(document).ready(() => {
    
    // LOOP FOR THE ILLNESSES 
    for (let i = 0; i < arArr.length; i++) {
-      const arBox = `<a href="${arArr[i].link}">${arArr[i].name}</a>`;
+      const arBox = `<a href="${arArr[i].link}" target="_blank">${arArr[i].name}</a>`;
       $(".ar").append(arBox)
    }
    
    for (let i = 0; i < aArr.length; i++) {
-      const aBox = `<a href="${aArr[i].link}">${aArr[i].name}</a>`;
+      const aBox = `<a href="${aArr[i].link}" target="_blank">${aArr[i].name}</a>`;
       $(".a").append(aBox)
    }
    
    for (let i = 0; i < bArr.length; i++) {
-      const bBox = `<a href="${bArr[i].link}">${bArr[i].name}</a>`;
+      const bBox = `<a href="${bArr[i].link}" target="_blank">${bArr[i].name}</a>`;
       $(".b").append(bBox)
    }
 
    for (let i = 0; i < dorArr.length; i++) {
-      const dorBox = `<a href="${dorArr[i].link}">${dorArr[i].name}</a>`;
+      const dorBox = `<a href="${dorArr[i].link}" target="_blank">${dorArr[i].name}</a>`;
       $(".dor").append(dorBox)
    }
 
    for (let i = 0; i < dinArr.length; i++) {
-      const dinBox = `<a href="${dinArr[i].link}">${dinArr[i].name}</a>`;
+      const dinBox = `<a href="${dinArr[i].link}" target="_blank">${dinArr[i].name}</a>`;
       $(".din").append(dinBox)
    }
    
    for (let i = 0; i < adArr.length; i++) {
-      const adBox = `<a href="${adArr[i].link}">${adArr[i].name}</a>`;
+      const adBox = `<a href="${adArr[i].link}" target="_blank">${adArr[i].name}</a>`;
       $(".ad").append(adBox)
    }
    
    for (let i = 0; i < hbpArr.length; i++) {
-      const hbpBox = `<a href="${hbpArr[i].link}">${hbpArr[i].name}</a>`;
+      const hbpBox = `<a href="${hbpArr[i].link}" target="_blank">${hbpArr[i].name}</a>`;
       $(".hbp").append(hbpBox)
    }
    
    for (let i = 0; i < lbpArr.length; i++) {
-      const lbpBox = `<a href="${lbpArr[i].link}">${lbpArr[i].name}</a>`;
+      const lbpBox = `<a href="${lbpArr[i].link}" target="_blank">${lbpArr[i].name}</a>`;
       $(".lbp").append(lbpBox)
    }
    
    for (let i = 0; i < hcArr.length; i++) {
-      const hcBox = `<a href="${hcArr[i].link}">${hcArr[i].name}</a>`;
+      const hcBox = `<a href="${hcArr[i].link}" target="_blank">${hcArr[i].name}</a>`;
       $(".hc").append(hcBox)
    }
    
    for (let i = 0; i < htArr.length; i++) {
-      const htBox = `<a href="${htArr[i].link}">${htArr[i].name}</a>`;
+      const htBox = `<a href="${htArr[i].link}" target="_blank">${htArr[i].name}</a>`;
       $(".ht").append(htBox)
    }
    
    for (let i = 0; i < pArr.length; i++) {
-      const pBox = `<a href="${pArr[i].link}">${pArr[i].name}</a>`;
+      const pBox = `<a href="${pArr[i].link}" target="_blank">${pArr[i].name}</a>`;
       $(".p").append(pBox)
    }
    
    for (let i = 0; i < saArr.length; i++) {
-      const saBox = `<a href="${saArr[i].link}">${saArr[i].name}</a>`;
+      const saBox = `<a href="${saArr[i].link}" target="_blank">${saArr[i].name}</a>`;
       $(".sa").append(saBox)
    }
    
    for (let i = 0; i < tArr.length; i++) {
-      const tBox = `<a href="${tArr[i].link}">${tArr[i].name}</a>`;
+      const tBox = `<a href="${tArr[i].link}" target="_blank">${tArr[i].name}</a>`;
       $(".t").append(tBox)
    }
    
    for (let i = 0; i < wpArr.length; i++) {
-      const wpBox = `<a href="${wpArr[i].link}">${wpArr[i].name}</a>`;
+      const wpBox = `<a href="${wpArr[i].link}" target="_blank">${wpArr[i].name}</a>`;
       $(".wp").append(wpBox)
    }
    
    for (let i = 0; i < prArr.length; i++) {
-      const prBox = `<a href="${prArr[i].link}">${prArr[i].name}</a>`;
+      const prBox = `<a href="${prArr[i].link}" target="_blank">${prArr[i].name}</a>`;
       $(".pr").append(prBox)
    }
    
